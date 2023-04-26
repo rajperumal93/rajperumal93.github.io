@@ -1,0 +1,37 @@
+:root {
+    --primaryText: 30px;
+    --secondaryText: 14px;
+}
+
+.darkTheme {
+    --bgColor: #000;
+    --color: #FFF;
+}
+
+.lightTheme {
+    --bgColor: #FFF;
+    --color: #000;
+}
+
+.section1 {
+    width: 100%;
+    background: linear-gradient(to right, red, yellow);
+    height: 300px;
+}
+
+.box-wrap {
+    padding: 50px 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: var(--color);
+}
+.box-wrap li {
+    background: var(--bgColor);
+    padding: 10px;
+    border-radius: 10px;
+}
+.box-wrap li h6 {
+    margin: 0;
+}

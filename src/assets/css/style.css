@@ -1,0 +1,127 @@
+body {
+    /* background: #f60; */
+}
+.recharts-layer.recharts-cartesian-axis-tick:first-child {
+    /* transform: rotate(-30deg, 92.6, 255.137); */
+    /* transform: rotateY(44deg) rotateZ(-60deg) translate(-213px); */
+/* transform: translate(0, 0) rotate(-45deg, 93.82, 312); */
+
+}
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+    /* transform: rotateY(44deg) rotateZ(-60deg) translate(-213px); */
+}
+/* transform: translate(0, 0) rotate(-45deg, 93.82, 312);
+transform: translate(0, 0) rotate(-45deg, 140.275, 312);
+transform: translate(0, 0) rotate(-45deg, 186.729, 312); */
+
+.recharts-cartesian-grid-vertical {
+    display: none;
+}
+.recharts-cartesian-grid-horizontal line {
+    stroke-dasharray: 0;
+}
+.recharts-layer.recharts-cartesian-axis-tick text {
+    font-size: 12px;
+}
+.recharts-layer.recharts-cartesian-axis-tick line {
+    display: none;
+}
+.custom-tooltip {
+    background-color: #FFFFFF;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+}
+.custom-tooltip .label {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.custom-tooltip .label:last-child {
+    font-weight: 700;
+}
+
+
+:root {
+    --primaryText: 30px;
+    --secondaryText: 15px;
+}
+
+.darkTheme {
+    --bgColor: #000;
+    --color: #FFF;
+}
+.lightTheme {
+    --bgColor: #FFF;
+    --color: #000;
+}
+
+.container {
+    background-color: var(--bgColor);
+}
+
+h1 {
+    font-size: var(--primaryText);
+    color: var(--color);
+}
+
+.progressbar {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #000;
+    position: relative;
+}
+.persent {
+    width: 100px;
+    height: 100%;
+    background: #f60;
+}
+
+.square {
+    /* height: 300px; */
+    padding: 100px 0;
+    width: 150px;
+    background: #000;
+    margin: 100px;
+    color: #FFF;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    position: relative;
+}
+.square::after {
+    content: '';
+    height: 25px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+}
+.square::before {
+    content: '';
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -27px;
+    left: 0;
+}
+
+.login-body {
+    background-color:#00ffff;
+    height: 100vh;
+}
+.login-wrap {
+    height: 400px;
+    width: 400px;
+    background: #FFF;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
